@@ -3,7 +3,7 @@ import java.util.*;
 /**
  * Created by daili on 2018/7/27.
  */
-public class TwoSum {
+public class TwoSum_1 {
     public static void main(String[] args) {
             int[] nums = new int[]{2, 7, 11, 15};
             int target = 9;
