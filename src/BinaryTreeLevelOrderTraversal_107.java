@@ -22,6 +22,7 @@ public class BinaryTreeLevelOrderTraversal_107 {
         return resultList;
     }
 
+    //深度优先，为每一层建立一个list，然后遍历到哪一层，就把元素加入到对应的那一个list
     public void dst(TreeNode treeNode,List<List<Integer>> resultList,int level){
           if(treeNode == null){
               return;
